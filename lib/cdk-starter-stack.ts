@@ -1,8 +1,12 @@
 import * as cdk from '@aws-cdk/core';
 
-export class CdkStarterStack extends cdk.Stack {
-  // eslint-disable-next-line @typescript-eslint/no-useless-constructor
+export class MyCdkStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
+
+    // 👇 get Availability Zones, Region, Account
+    console.log('availability zones 👉', cdk.Stack.of(this).availabilityZones);
+    console.log('region 👉', cdk.Stack.of(this).region);
+    console.log('accountId 👉', cdk.Stack.of(this).account);
   }
 }
