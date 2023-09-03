@@ -1,7 +1,7 @@
 # How to get the Availability Zones in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/get-availability-zones-aws-cdk)
+[bobbyhadz.com](https://bobbyhadz.com/blog/cdk-get-region-accountid)
 
 > If you use CDK v1, switch to the cdk-v1 branch
 
